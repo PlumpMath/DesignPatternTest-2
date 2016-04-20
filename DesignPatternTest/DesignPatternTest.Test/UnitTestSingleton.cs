@@ -15,6 +15,9 @@ namespace DesignPatternTest.Test
         //https://msdn.microsoft.com/zh-tw/library/88c54tsw.aspx
         //sealed 類別(Class)不能被繼承，或宣告sealed method 不能被子類別 override
 
+        //https://msdn.microsoft.com/zh-tw/library/x13ttww7.aspx
+        //宣告為 volatile 的欄位不遵從假設單一執行緒存取的編譯器最佳化。這確保最新的值會一直出現在欄位中
+
         [TestMethod]
         public void TestNormalSingleton_GetInstance()
         {

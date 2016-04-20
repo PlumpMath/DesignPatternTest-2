@@ -10,7 +10,7 @@ namespace DesignPatternTest.Common
     {
         private static InitSingleton _instance = new InitSingleton();
 
-        public InitSingleton()
+        private InitSingleton()
         {
 
         }
