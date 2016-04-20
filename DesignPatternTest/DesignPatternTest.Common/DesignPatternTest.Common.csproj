@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\MemberFactory.cs" />
+    <Compile Include="Factory\Models\SilverMember.cs" />
+    <Compile Include="Factory\Models\NormalMember.cs" />
+    <Compile Include="Factory\Models\GoldMember.cs" />
+    <Compile Include="Factory\Models\Member.cs" />
     <Compile Include="Singleton\InitSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
     <Compile Include="Singleton\MultiTheadedSingleton.cs" />
