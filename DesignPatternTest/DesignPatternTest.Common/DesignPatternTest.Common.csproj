@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapater\Interface\ITarget.cs" />
+    <Compile Include="Adapater\Models\Adaptee.cs" />
+    <Compile Include="Adapater\Models\MyAdapter.cs" />
     <Compile Include="Factory\MemberFactory.cs" />
     <Compile Include="Factory\Models\SilverMember.cs" />
     <Compile Include="Factory\Models\NormalMember.cs" />

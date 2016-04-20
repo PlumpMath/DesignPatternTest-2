@@ -5,15 +5,15 @@ using DesignPatternTest.Common;
 namespace DesignPatternTest.Test
 {
     [TestClass]
-    public class UnitTestFactory
+    public class UnitTestAdapter
     {
         //http://www.dotnetperls.com/factory
 
         [TestMethod]
-        public void TestMethodGet()
+        public void TestMethodAdapter()
         {
-            var member = MemberFactory.GetMember(MemberType.Normal);
-            Assert.AreEqual(member.Name, MemberType.Normal.ToString());
+            ITarget adapter = new MyAdapter();
+            adapter.Request();
         }
     }
 }
