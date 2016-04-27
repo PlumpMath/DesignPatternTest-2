@@ -19,5 +19,24 @@ namespace DesignPatternTest.Test
             ITarget adapter = new MyAdapter();
             adapter.Request();
         }
+
+        [TestMethod]
+        public void TestMethodAdapter_Example()
+        {
+            Player b = new Forwards("Leo");
+            b.Attack();
+
+            Player m = new Guards("ken");
+            m.Attack();
+
+            Player ym = new Center("小明");
+            ym.Attack();
+            ym.Defense();
+
+            Player ym2 = new Translator("阿木");
+            ym2.Attack();
+            ym2.Defense();
+
+        }
     }
 }

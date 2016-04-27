@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapater\Example\ForeignCenter.cs" />
+    <Compile Include="Adapater\Example\Guards.cs" />
+    <Compile Include="Adapater\Example\Center.cs" />
+    <Compile Include="Adapater\Example\Forwards.cs" />
+    <Compile Include="Adapater\Example\Player.cs" />
+    <Compile Include="Adapater\Example\Translator.cs" />
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
