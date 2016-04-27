@@ -48,6 +48,10 @@
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
+    <Compile Include="Command\Invoker.cs" />
+    <Compile Include="Command\ConcreteCommand.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\Receiver.cs" />
     <Compile Include="Composite\Example\FinanceDept.cs" />
     <Compile Include="Composite\Example\HRDept.cs" />
     <Compile Include="Composite\Example\Company.cs" />
