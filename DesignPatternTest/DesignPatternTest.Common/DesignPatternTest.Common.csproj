@@ -42,6 +42,9 @@
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
+    <Compile Include="Composite\Leaf.cs" />
+    <Compile Include="Composite\Composite.cs" />
+    <Compile Include="Composite\Component.cs" />
     <Compile Include="Factory\MemberFactory.cs" />
     <Compile Include="Factory\Models\SilverMember.cs" />
     <Compile Include="Factory\Models\NormalMember.cs" />
@@ -53,6 +56,7 @@
     <Compile Include="Singleton\NonThreadSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
