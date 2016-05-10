@@ -48,6 +48,17 @@
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
+    <Compile Include="Command\Example\easytalk\BakeChickenWingCommand.cs" />
+    <Compile Include="Command\Example\easytalk\BakeMuttonCommand.cs" />
+    <Compile Include="Command\Example\easytalk\Cook.cs" />
+    <Compile Include="Command\Example\easytalk\Command.cs" />
+    <Compile Include="Command\Example\easytalk\Waiter.cs" />
+    <Compile Include="Command\Example\wiki\OpenSwitchCommand.cs" />
+    <Compile Include="Command\Example\wiki\CloseSwitchCommand.cs" />
+    <Compile Include="Command\Example\wiki\ICommand.cs" />
+    <Compile Include="Command\Example\wiki\ISwitchable.cs" />
+    <Compile Include="Command\Example\wiki\Light.cs" />
+    <Compile Include="Command\Example\wiki\Switch.cs" />
     <Compile Include="Command\Invoker.cs" />
     <Compile Include="Command\ConcreteCommand.cs" />
     <Compile Include="Command\Command.cs" />
