@@ -75,6 +75,15 @@
     <Compile Include="Factory\Models\NormalMember.cs" />
     <Compile Include="Factory\Models\GoldMember.cs" />
     <Compile Include="Factory\Models\Member.cs" />
+    <Compile Include="Observer\ConcreteObserver.cs" />
+    <Compile Include="Observer\ConcreteSubject.cs" />
+    <Compile Include="Observer\Example\Boss.cs" />
+    <Compile Include="Observer\Example\NBAObserver.cs" />
+    <Compile Include="Observer\Example\Secretary.cs" />
+    <Compile Include="Observer\Example\ISubject.cs" />
+    <Compile Include="Observer\Example\StockObserver.cs" />
+    <Compile Include="Observer\Observer.cs" />
+    <Compile Include="Observer\Subject.cs" />
     <Compile Include="Singleton\InitSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
     <Compile Include="Singleton\MultiTheadedSingleton.cs" />

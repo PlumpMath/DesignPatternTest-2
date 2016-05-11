@@ -15,17 +15,17 @@ namespace DesignPatternTest.Test
             /*
              */
             Composite root = new Composite("root");
-            root.Add(new Leaf("Left A"));
-            root.Add(new Leaf("Left B"));
+            root.Add(new Leaf("Leaf A"));
+            root.Add(new Leaf("Leaf B"));
 
             Composite comp = new Composite("root");
-            comp.Add(new Leaf("Left xA"));
-            comp.Add(new Leaf("Left xB"));
+            comp.Add(new Leaf("Leaf xA"));
+            comp.Add(new Leaf("Leaf xB"));
 
             root.Add(comp);
-            root.Add(new Leaf("Left C"));
+            root.Add(new Leaf("Leaf C"));
 
-            Leaf leaf = new Leaf("Left D");
+            Leaf leaf = new Leaf("Leaf D");
             root.Add(leaf);
             root.Remove(leaf);
 
