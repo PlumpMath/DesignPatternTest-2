@@ -79,7 +79,6 @@
     <Compile Include="Observer\ConcreteSubject.cs" />
     <Compile Include="Observer\Example\Boss.cs" />
     <Compile Include="Observer\Example\NBAObserver.cs" />
-    <Compile Include="Observer\Example\Secretary.cs" />
     <Compile Include="Observer\Example\ISubject.cs" />
     <Compile Include="Observer\Example\StockObserver.cs" />
     <Compile Include="Observer\Observer.cs" />
@@ -90,7 +89,9 @@
     <Compile Include="Singleton\NonThreadSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Builder\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

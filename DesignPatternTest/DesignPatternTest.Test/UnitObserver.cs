@@ -29,12 +29,12 @@ namespace DesignPatternTest.Test
         {
             Boss myBoss = new Boss();
 
-            StockObserver tongshi1 = new StockObserver("leo", myBoss);
+            StockObserver user1 = new StockObserver("leo", myBoss);
 
-            NBAObserver tongshi2 = new NBAObserver("ken", myBoss);
+            NBAObserver user2 = new NBAObserver("ken", myBoss);
 
-            myBoss.Update += new MyEventHandler(tongshi1.CloseStockMarket);
-            myBoss.Update += new MyEventHandler(tongshi2.CloseNBADirectSeeding);
+            myBoss.Update += new MyEventHandler(user1.CloseStockMarket);
+            myBoss.Update += new MyEventHandler(user2.CloseNBADirectSeeding);
 
             myBoss.SubjectState = "I'm come back!!! ";
             myBoss.Notify();
