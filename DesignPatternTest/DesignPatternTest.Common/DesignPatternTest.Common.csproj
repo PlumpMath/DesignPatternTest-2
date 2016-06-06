@@ -48,6 +48,13 @@
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
+    <Compile Include="Builder\Car.cs" />
+    <Compile Include="Builder\CarBuilder.cs" />
+    <Compile Include="Builder\CarBuilderDirector.cs" />
+    <Compile Include="Builder\Example\PersonBuilder.cs" />
+    <Compile Include="Builder\Example\PersonDirector.cs" />
+    <Compile Include="Builder\Example\PersonThinBuilder.cs" />
+    <Compile Include="Builder\ICarBuilder.cs" />
     <Compile Include="Command\Example\easytalk\BakeChickenWingCommand.cs" />
     <Compile Include="Command\Example\easytalk\BakeMuttonCommand.cs" />
     <Compile Include="Command\Example\easytalk\Cook.cs" />
@@ -89,9 +96,7 @@
     <Compile Include="Singleton\NonThreadSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Builder\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
