@@ -39,6 +39,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractProductB.cs" />
+    <Compile Include="AbstractFactory\AbstractProductA.cs" />
+    <Compile Include="AbstractFactory\Client.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryB.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryA.cs" />
+    <Compile Include="AbstractFactory\Example\ICommonFactory.cs" />
+    <Compile Include="AbstractFactory\Example\IUser.cs" />
+    <Compile Include="AbstractFactory\Example\SqliteCommonFactory.cs" />
+    <Compile Include="AbstractFactory\Example\SqlCommonFactory.cs" />
+    <Compile Include="AbstractFactory\Example\SqlUser.cs" />
+    <Compile Include="AbstractFactory\Example\SqliteUser.cs" />
+    <Compile Include="AbstractFactory\Example\User.cs" />
+    <Compile Include="AbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\ProductB1.cs" />
+    <Compile Include="AbstractFactory\ProductB2.cs" />
+    <Compile Include="AbstractFactory\ProductA2.cs" />
+    <Compile Include="AbstractFactory\ProductA1.cs" />
     <Compile Include="Adapater\Example\ForeignCenter.cs" />
     <Compile Include="Adapater\Example\Guards.cs" />
     <Compile Include="Adapater\Example\Center.cs" />

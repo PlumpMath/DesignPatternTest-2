@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Text;
 
 namespace DesignPatternTest.Test
 {
@@ -23,7 +24,17 @@ namespace DesignPatternTest.Test
             var pd = new PersonDirector(ptb);
             pd.CreatePersion();
             Console.WriteLine(pd.GetResult());
-
         }
+
+        [TestMethod]
+        public void TestStringBuilder()
+        {
+            StringBuilder s = new StringBuilder();
+            s.Append("1 ");
+            s.Append("2 ");
+            s.Append("3 ");
+            Console.WriteLine(s.ToString());
+        }
+
     }
 }
