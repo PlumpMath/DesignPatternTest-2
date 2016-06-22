@@ -94,6 +94,15 @@
     <Compile Include="Composite\Leaf.cs" />
     <Compile Include="Composite\Composite.cs" />
     <Compile Include="Composite\Component.cs" />
+    <Compile Include="Facade\Example\CarAccessories.cs" />
+    <Compile Include="Facade\Example\CarBody.cs" />
+    <Compile Include="Facade\Example\CarEngine.cs" />
+    <Compile Include="Facade\Example\CarFacade.cs" />
+    <Compile Include="Facade\Example\CarModel.cs" />
+    <Compile Include="Facade\MyFacade.cs" />
+    <Compile Include="Facade\SubsystemA.cs" />
+    <Compile Include="Facade\SubsystemB.cs" />
+    <Compile Include="Facade\SubsystemC.cs" />
     <Compile Include="Factory\MemberFactory.cs" />
     <Compile Include="Factory\Models\SilverMember.cs" />
     <Compile Include="Factory\Models\NormalMember.cs" />
