@@ -125,6 +125,15 @@
     <Compile Include="Singleton\MultiTheadedSingleton.cs" />
     <Compile Include="Singleton\NonThreadSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State\ConcreteStateB.cs" />
+    <Compile Include="State\ConcreteStateA.cs" />
+    <Compile Include="State\Context.cs" />
+    <Compile Include="State\Example\ConcreteState1.cs" />
+    <Compile Include="State\Example\ConcreteState2.cs" />
+    <Compile Include="State\Example\ConcreteState3.cs" />
+    <Compile Include="State\Example\PlayerState.cs" />
+    <Compile Include="State\Example\StateContext.cs" />
+    <Compile Include="State\State.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
