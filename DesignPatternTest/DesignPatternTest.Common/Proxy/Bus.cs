@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternTest
 {
-    public class Bus : IBus
+    internal class Bus : IBus
     {
         public void DriveCar()
         {
