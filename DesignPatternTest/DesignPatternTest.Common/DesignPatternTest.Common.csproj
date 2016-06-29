@@ -116,6 +116,10 @@
     <Compile Include="Observer\Example\StockObserver.cs" />
     <Compile Include="Observer\Observer.cs" />
     <Compile Include="Observer\Subject.cs" />
+    <Compile Include="Proxy\Bus.cs" />
+    <Compile Include="Proxy\Driver.cs" />
+    <Compile Include="Proxy\IBus.cs" />
+    <Compile Include="Proxy\ProxyBus.cs" />
     <Compile Include="Singleton\InitSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
     <Compile Include="Singleton\MultiTheadedSingleton.cs" />

@@ -50,7 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitObserver.cs" />
+    <Compile Include="UnitTestProxy.cs" />
+    <Compile Include="UnitTestObserver.cs" />
     <Compile Include="UnitTestFacade.cs" />
     <Compile Include="UnitTestAbstractFactory.cs" />
     <Compile Include="UnitTestBuilder.cs" />

@@ -5,7 +5,7 @@ using DesignPatternTest.Common;
 namespace DesignPatternTest.Test
 {
     [TestClass]
-    public class UnitObserver
+    public class UnitTestObserver
     {
         //當一群物件間有一對多的相依關係時，當被依者物件的資料改變時，會通知其他依靠者物件以作出回應
 
