@@ -65,6 +65,11 @@
     <Compile Include="Adapater\Interface\ITarget.cs" />
     <Compile Include="Adapater\Models\Adaptee.cs" />
     <Compile Include="Adapater\Models\MyAdapter.cs" />
+    <Compile Include="Bridge\AbstractionBridge.cs" />
+    <Compile Include="Bridge\ConcreteImplementorBridgeB.cs" />
+    <Compile Include="Bridge\ConcreteImplementorBridgeA.cs" />
+    <Compile Include="Bridge\ImplementorBridge.cs" />
+    <Compile Include="Bridge\RefinedAbstraction.cs" />
     <Compile Include="Builder\Car.cs" />
     <Compile Include="Builder\CarBuilder.cs" />
     <Compile Include="Builder\CarBuilderDirector.cs" />
