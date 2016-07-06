@@ -134,6 +134,12 @@
     <Compile Include="State\Example\PlayerState.cs" />
     <Compile Include="State\Example\StateContext.cs" />
     <Compile Include="State\State.cs" />
+    <Compile Include="TemplateMethod\AbstractTempMethod.cs" />
+    <Compile Include="TemplateMethod\ConcreteTempMethodB.cs" />
+    <Compile Include="TemplateMethod\ConcreteTempMethodA.cs" />
+    <Compile Include="TemplateMethod\Example\TestPaper.cs" />
+    <Compile Include="TemplateMethod\Example\TestPaperB.cs" />
+    <Compile Include="TemplateMethod\Example\TestPaperA.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
