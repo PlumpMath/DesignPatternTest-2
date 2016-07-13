@@ -145,6 +145,15 @@
     <Compile Include="State\Example\PlayerState.cs" />
     <Compile Include="State\Example\StateContext.cs" />
     <Compile Include="State\State.cs" />
+    <Compile Include="Strategy\ConcreteStrategyB.cs" />
+    <Compile Include="Strategy\ConcreteStrategyA.cs" />
+    <Compile Include="Strategy\Example\CashFactory.cs" />
+    <Compile Include="Strategy\Example\CashRebate.cs" />
+    <Compile Include="Strategy\Example\CashNormal.cs" />
+    <Compile Include="Strategy\Example\CashReturn.cs" />
+    <Compile Include="Strategy\Example\CashSuper.cs" />
+    <Compile Include="Strategy\Strategy.cs" />
+    <Compile Include="Strategy\StrategyContext.cs" />
     <Compile Include="TemplateMethod\AbstractTempMethod.cs" />
     <Compile Include="TemplateMethod\ConcreteTempMethodB.cs" />
     <Compile Include="TemplateMethod\ConcreteTempMethodA.cs" />
