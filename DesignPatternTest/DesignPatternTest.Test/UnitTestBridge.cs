@@ -15,7 +15,22 @@ namespace DesignPatternTest.Test
 
             ab.Implementor = new ConcreteImplementorBridgeB();
             ab.Operation();
+        }
 
+        [TestMethod]
+        public void TestMethodBridge_Example()
+        {
+            HandsetBrand hb;
+            hb = new HandsetBrandA();
+            hb.SetHandsetSoft(new HandsetLine());
+            hb.Run();
+
+            hb.SetHandsetSoft(new HandsetGame());
+            hb.Run();
+
+            hb = new HandsetBrandI();
+            hb.SetHandsetSoft(new HandsetLine());
+            hb.Run();
 
         }
     }

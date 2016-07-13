@@ -68,6 +68,12 @@
     <Compile Include="Bridge\AbstractionBridge.cs" />
     <Compile Include="Bridge\ConcreteImplementorBridgeB.cs" />
     <Compile Include="Bridge\ConcreteImplementorBridgeA.cs" />
+    <Compile Include="Bridge\Example\HandsetBrandA.cs" />
+    <Compile Include="Bridge\Example\HandsetBrandI.cs" />
+    <Compile Include="Bridge\Example\HandsetLine.cs" />
+    <Compile Include="Bridge\Example\HandsetGame.cs" />
+    <Compile Include="Bridge\Example\HandsetSoft.cs" />
+    <Compile Include="Bridge\Example\HandsetBrand.cs" />
     <Compile Include="Bridge\ImplementorBridge.cs" />
     <Compile Include="Bridge\RefinedAbstraction.cs" />
     <Compile Include="Builder\Car.cs" />
