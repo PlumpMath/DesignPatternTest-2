@@ -160,6 +160,20 @@
     <Compile Include="TemplateMethod\Example\TestPaper.cs" />
     <Compile Include="TemplateMethod\Example\TestPaperB.cs" />
     <Compile Include="TemplateMethod\Example\TestPaperA.cs" />
+    <Compile Include="Visitor\ConcreteElementB.cs" />
+    <Compile Include="Visitor\ConcreteElementA.cs" />
+    <Compile Include="Visitor\ConcreteVisitor2.cs" />
+    <Compile Include="Visitor\ConcreteVisitor1.cs" />
+    <Compile Include="Visitor\Element.cs" />
+    <Compile Include="Visitor\Example\VisitAction.cs" />
+    <Compile Include="Visitor\Example\VisitMan.cs" />
+    <Compile Include="Visitor\Example\VisitPerson.cs" />
+    <Compile Include="Visitor\Example\VisitFail.cs" />
+    <Compile Include="Visitor\Example\VisitSuccess.cs" />
+    <Compile Include="Visitor\Example\VisitWoman.cs" />
+    <Compile Include="Visitor\Example\VObjectStructure.cs" />
+    <Compile Include="Visitor\VisitObjectStructure.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
