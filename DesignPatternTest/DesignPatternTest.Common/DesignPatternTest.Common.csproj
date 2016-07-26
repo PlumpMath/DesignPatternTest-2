@@ -119,6 +119,11 @@
     <Compile Include="Factory\Models\NormalMember.cs" />
     <Compile Include="Factory\Models\GoldMember.cs" />
     <Compile Include="Factory\Models\Member.cs" />
+    <Compile Include="Mediator\Example\MCountry.cs" />
+    <Compile Include="Mediator\Example\JP.cs" />
+    <Compile Include="Mediator\Example\TW.cs" />
+    <Compile Include="Mediator\Example\UnitedNationsSecurityCouncil.cs" />
+    <Compile Include="Mediator\Example\UnitNations.cs" />
     <Compile Include="Observer\ConcreteObserver.cs" />
     <Compile Include="Observer\ConcreteSubject.cs" />
     <Compile Include="Observer\Example\Boss.cs" />
