@@ -119,6 +119,10 @@
     <Compile Include="Factory\Models\NormalMember.cs" />
     <Compile Include="Factory\Models\GoldMember.cs" />
     <Compile Include="Factory\Models\Member.cs" />
+    <Compile Include="Iterator\Aggregate.cs" />
+    <Compile Include="Iterator\ConcreteAggregate.cs" />
+    <Compile Include="Iterator\ConcreteIterator.cs" />
+    <Compile Include="Iterator\Iterator.cs" />
     <Compile Include="Mediator\ConcreteColleague2.cs" />
     <Compile Include="Mediator\ConcreteColleague1.cs" />
     <Compile Include="Mediator\Colleague.cs" />
