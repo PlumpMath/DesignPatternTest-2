@@ -124,6 +124,10 @@
     <Compile Include="Factory\Models\NormalMember.cs" />
     <Compile Include="Factory\Models\GoldMember.cs" />
     <Compile Include="Factory\Models\Member.cs" />
+    <Compile Include="Flyweight\Example\ConcreteWebsite.cs" />
+    <Compile Include="Flyweight\Example\FUser.cs" />
+    <Compile Include="Flyweight\Example\FWebSite.cs" />
+    <Compile Include="Flyweight\Example\FWebSiteFactory.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\ConcreteAggregate.cs" />
     <Compile Include="Iterator\ConcreteIterator.cs" />
