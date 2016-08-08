@@ -83,6 +83,14 @@
     <Compile Include="Builder\Example\PersonDirector.cs" />
     <Compile Include="Builder\Example\PersonThinBuilder.cs" />
     <Compile Include="Builder\ICarBuilder.cs" />
+    <Compile Include="ChainOfResponsibility\ConcreteHandlerB.cs" />
+    <Compile Include="ChainOfResponsibility\ConcreteHandlerA.cs" />
+    <Compile Include="ChainOfResponsibility\CORHandler.cs" />
+    <Compile Include="ChainOfResponsibility\Example\GeneralManager.cs" />
+    <Compile Include="ChainOfResponsibility\Example\MajorDemo.cs" />
+    <Compile Include="ChainOfResponsibility\Example\CommonManager.cs" />
+    <Compile Include="ChainOfResponsibility\Example\CORManager.cs" />
+    <Compile Include="ChainOfResponsibility\Example\CORRequest.cs" />
     <Compile Include="Command\Example\easytalk\BakeChickenWingCommand.cs" />
     <Compile Include="Command\Example\easytalk\BakeMuttonCommand.cs" />
     <Compile Include="Command\Example\easytalk\Cook.cs" />
