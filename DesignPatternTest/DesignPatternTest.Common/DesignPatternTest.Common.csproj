@@ -136,6 +136,10 @@
     <Compile Include="Flyweight\Example\FUser.cs" />
     <Compile Include="Flyweight\Example\FWebSite.cs" />
     <Compile Include="Flyweight\Example\FWebSiteFactory.cs" />
+    <Compile Include="Interpreter\AbstractExpression.cs" />
+    <Compile Include="Interpreter\InterpretContext.cs" />
+    <Compile Include="Interpreter\NonterminalExpression.cs" />
+    <Compile Include="Interpreter\TerminalExpression.cs" />
     <Compile Include="Iterator\Aggregate.cs" />
     <Compile Include="Iterator\ConcreteAggregate.cs" />
     <Compile Include="Iterator\ConcreteIterator.cs" />
