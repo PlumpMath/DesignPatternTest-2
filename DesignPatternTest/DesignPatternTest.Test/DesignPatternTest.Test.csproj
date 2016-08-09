@@ -51,7 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="UnitMediator.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTestInterpreter.cs" />
     <Compile Include="UnitTestChainOfResponsibility.cs" />
     <Compile Include="UnitTestFlyWeight.cs" />
     <Compile Include="UnitTestDecorator.cs" />

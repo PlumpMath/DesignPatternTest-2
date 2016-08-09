@@ -5,7 +5,7 @@ using System.Collections;
 namespace DesignPatternTest.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestInterpreter
     {
         [TestMethod]
         public void TestMethod_Interpreter()
