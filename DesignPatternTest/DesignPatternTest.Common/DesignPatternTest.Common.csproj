@@ -154,6 +154,9 @@
     <Compile Include="Mediator\Example\UnitedNationsSecurityCouncil.cs" />
     <Compile Include="Mediator\Example\UnitNations.cs" />
     <Compile Include="Mediator\Mediator.cs" />
+    <Compile Include="Memento\Caretaker.cs" />
+    <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Memento\Originator.cs" />
     <Compile Include="Observer\ConcreteObserver.cs" />
     <Compile Include="Observer\ConcreteSubject.cs" />
     <Compile Include="Observer\Example\Boss.cs" />
@@ -213,7 +216,9 @@
     <Compile Include="Visitor\VisitObjectStructure.cs" />
     <Compile Include="Visitor\Visitor.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Interpreter\Example\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
